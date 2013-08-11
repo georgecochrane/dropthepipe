@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "DropThePipe",
+  "description": "This extension helps curb the need to constantly reopen tabs.",
+  "version": "1.0",
+
+  "permissions": [
+    "tabs"
+  ],
+  "browser_action": {
+    "default_icon": "dtp_icon.png",
+    "default_popup": "dtp_popup.html"
+  }
+}
